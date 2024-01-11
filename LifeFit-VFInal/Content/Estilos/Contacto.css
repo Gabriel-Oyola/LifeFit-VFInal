@@ -1,0 +1,130 @@
+﻿*{
+    padding:0;
+    margin:0; 
+
+}
+
+header {
+    width: 100%;
+    height:7%; 
+    box-shadow:1px 1px 5px #000; 
+    text-align: center;
+   
+    
+}
+
+#menu{
+    width:450px; 
+    padding-top:13px; 
+    margin:auto; 
+}
+
+#menu ul a{
+    color:#000; 
+    text-decoration: none; 
+    font: 16px Verdana; 
+    padding: 13px 20px 21px 20px;
+    transition: .5s; 
+    border-radius: 30px; 
+
+}
+
+    #menu ul a:hover {
+        color: #f9db4a;
+        background: black;
+    }
+
+
+
+body {
+    background: -webkit-linear-gradient(left, #f9db4a, #f9db4a);
+}
+
+.contact-form {
+    background: #515151;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+    border-radius: 50px;
+}
+
+    .contact-form .form-control {
+        border-radius: 1rem;
+    }
+
+.contact-image {
+    text-align: center;
+}
+
+    .contact-image img {
+        border-radius: 6rem;
+        width: 20%;
+        margin-top: -3%;
+        transform: rotate(29deg);
+        
+    }
+
+.contact-form form {
+    padding: 14%;
+}
+
+    .contact-form form .row {
+        margin-bottom: -7%;
+    }
+
+.contact-form h3 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #f9db4a;
+}
+/*
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+*/
+
+.boton-1 {
+    display: block;
+}
+
+.btn-1 {
+    text-decoration: none;
+    background-color: #e1ad12;
+    color: rgb(49, 49, 49);
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all .3s ease;
+    justify-content: center;
+}
+
+    .btn-1:hover {
+        background-color: #ffc000;
+        color: black;
+        box-shadow: 0 0 5px black,0 0 20px black, 0 0 60px black, 0 0 150px black;
+    }
+
+footer {
+    color: #f9db4a;
+    background-color: black;
+    text-align: center;
+    height: 2rem 3px;
+    padding: 1rem;
+}
